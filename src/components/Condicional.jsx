@@ -10,6 +10,7 @@ export default function Condicional() {
 
     return (
         <div>
+            <h2>Cadastre seu email</h2>
             <form onSubmit={enviarEmail}>
                 <input
                     type="email"
